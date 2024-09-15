@@ -1,0 +1,38 @@
+/*Text Input Controls
+Checkboxes Controls
+Radio Box Controls
+Select Box Controls
+File Select boxes
+Hidden Controls
+Clickable Buttons
+Submit and Reset Button
+<input type=“text”> Defines a one-line text input field
+
+<input type=“password”> Defines a one-line password input field
+
+<input type=“radio”> Defines a radio button (for selecting one of many choices)
+
+<input type=“checkbox”> Defines checkboxes which allow select multiple options form
+
+<input type=“submit”> Defines a submit button (for submitting the form)
+
+<input type=“reset”> Defines a reset button to reset all values in the form
+
+<input type=“button”> Defines a simple push button, which can be programmed to perform a task on an event
+
+<input type=“file”> Defines to select the file from device storage
+
+<input type=“image”> Defines a graphical submit button
+
+<input type=“date”> Defines an input field for selection of date
+
+<input type=“datetime-local”> Defines an input field for entering a date without time zone
+
+<input type=“email”> Defines an input field for entering an email address
+
+<input type=“number”> Defines an input field to enter a number
+
+<input type=“tel”> Defines an input field for entering the telephone number
+
+
+Create a HTML web page for User Registration Form.*/

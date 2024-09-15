@@ -1,0 +1,43 @@
+<HTML>
+    <BODY>
+        <FORM>
+            Enter first NO:<input type="text" id="n1"><br><br>
+            Enter second NO:<input type="text" id="n2"><br><br>
+            Result:<input type="number" id="n3"><br><br>
+            <input type="button" value="Addition" onclick="add()">
+            <input type="button" value="Substraction" onclick="sub()">
+            <input type="button" value="Multiplication" onclick="mul()">
+            <input type="button" value="Division" onclick="div()">
+        </FORM>
+        <script>
+            function add()
+            {
+                let num1=Number.parseInt(document.getElementById("n1").value);
+                let num2=Number.parseInt(document.getElementById("n2").value);
+                let num3=num1+num2;
+                document.getElementById("n3").value=num3;
+            }
+            function sub()
+            {
+                let num1=Number.parseInt(document.getElementById("n1").value);
+                let num2=Number.parseInt(document.getElementById("n2").value);
+                let num3=num1-num2;
+                document.getElementById("n3").value=num3;
+            }
+            function mul()
+            {
+                let num1=Number.parseInt(document.getElementById("n1").value);
+                let num2=Number.parseInt(document.getElementById("n2").value);
+                let num3=num1*num2;
+                document.getElementById("n3").value=num3;
+            }
+            function div()
+            {
+                let num1=Number.parseInt(document.getElementById("n1").value);
+                let num2=Number.parseInt(document.getElementById("n2").value);
+                let num3=num1/num2;
+                document.getElementById("n3").value=num3;
+            }
+        </script>
+    </BODY>
+</HTML>
