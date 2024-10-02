@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Changing Option List Dynamically</title>
+
+<script language="javascript" type="text/javascript">
+
+function display(ElementValue)
+   {
+	with(document.forms.myform)
+         {
+          if(ElementValue == "Fruits")
+           {
+		optionList[0].text="Mango";
+                optionList[0].value=1;
+                optionList[1].text="Banana";
+                optionList[1].value=2;
+                optionList[2].text="Apple";
+                optionList[2].value=3;
+           }
+
+       if(ElementValue == "Vegetables")
+        {
+          optionList[0].text="Potato";
+          optionList[0].value=1;
+          optionList[1].text="Cabbage";
+          optionList[1].value=2;
+          optionList[2].text="Onion";
+          optionList[2].value=3;
+        }
+    }
+}
+</script>
+</head>
+
+<body>
+<form name="myform" action="" method="post">
+ <br>
+
+<select name="optionList" size ="5">
+               
+   <option value=1>Mango
+   <option value=2>Banana
+   <option value=3>Apple
+</select> 
+<br>
+
+ <input type="button" value="Fruits" onclick="display(this.value)">
+ <input type="button" value="Vegetables"
+onclick="display(this.value)">
+ <br>
+ 
+ </p>
+</form>
+</body>
+</htm

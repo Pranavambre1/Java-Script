@@ -1,0 +1,32 @@
+<html>
+<body>
+<h1>Evaluting checkbox</h1>
+<script>
+function check()
+{
+ with(document.forms.form1)
+         {
+          if(c1.checked==true)
+           { 
+               alert("Bike");
+           }
+           if(c2.checked==true)
+           { 
+              alert("car");
+           }
+           if(c3.checked==true)
+              { 
+                 alert("boat");
+              }
+          }
+}
+</script>
+<form name="form1" method="get">
+  <input type="checkbox" name="c1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="c2" value="Car"> I have a car<br>
+  <input type="checkbox" name="c3" value="Boat" > I have a boat<br><br>
+  <input type="submit" value="Submit" onclick=check()>
+</form>
+
+</body>
+</html>

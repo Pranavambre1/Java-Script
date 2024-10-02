@@ -1,0 +1,29 @@
+
+<html>
+<head>
+    <title>
+        
+    </title>
+</head>
+  <body>
+<script>
+   
+  function set()
+ {
+    with(document.forms.form1)
+     {
+       if(fname.value!=" ")
+        {
+          lname.value="welcome "+ fname.value;
+        }
+    }
+  }
+ </script>
+
+<form  name="form1">
+
+ first name <input type="text" name="fname" value="sarika" onchange="set()"> <br>
+Name <input type="text" name="lname" >  <br>
+       </form>
+  </body>
+</html>

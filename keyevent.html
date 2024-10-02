@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>key event </title>
+</head>
+<body>
+<script>
+function press()
+{
+document.form1.b1.value="key press";
+}
+function up()
+{
+document.form1.b1.value="key up";
+}
+</script>
+<form name="form1">
+<input type="text" name="t1" value=" "  onkeypress="press()" onkeyup="up()"  >
+<input type="button" name="b1" value="press key">
+</form>
+</body>
